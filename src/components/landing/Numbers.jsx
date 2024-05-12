@@ -49,7 +49,7 @@ export default function Numbers() {
                     In 3 years Ahsaw has rescued over <span className='text-yellow-400'>{dogCount}</span>{' '}
                     Dogs from poor living conditions in west Africa
                 </h1>
-                <p className="text-lg text-yellow-400 my-3">But many more are in dire need of your help</p>
+                <p className="text-lg text-yellow-400 my-3">And with your help we can rescue many more!</p>
             </div>
         </div>
     );
