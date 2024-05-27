@@ -3,6 +3,8 @@ import React from 'react';
 
 export default function Header() {
     return (
+        // <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 px-5 md:px-10 py-10 md:py-16 h-screen" style={{ backgroundImage: "url('/images/colorful-stingrays.svg')" }}>
+
         <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 px-5 md:px-10 py-10 md:py-16 h-screen">
             <div className="text-center md:text-left">
                 <h1 className='text-4xl md:text-5xl font-bold leading-tight'>
