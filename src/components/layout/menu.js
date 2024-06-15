@@ -11,11 +11,11 @@ const NavMenu = () => {
   };
 
   const navLinks = [
-    { href: '/donate', label: 'Donate' },
-    { href: '/adopt', label: 'Adopt' },
-    { href: '/about', label: 'About Us' },
+    { href: '#donate', label: 'Donate' },
+    { href: '/src/app/adopt', label: 'Adopt' },
+    { href: '#about', label: 'About Us' },
     // { href: 'https://aitools.fyi/', label: 'aitools.fyi' },
-    { href: 'https://amazingnewsletters.com/', label: 'Newsletter' },
+    { href: '#contact', label: 'Newsletter' },
   ];
 
   return (

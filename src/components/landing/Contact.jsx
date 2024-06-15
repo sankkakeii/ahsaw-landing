@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaPatreon } from 'react-icons/fa';
 
 export default function Contact() {
     return (
-        <div className="rounded-2xl flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 px-5 md:px-10 py-10 md:py-16">
+        <div id="contact" className="rounded-2xl flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 px-5 md:px-10 py-10 md:py-16">
             <div className="text-center md:text-left">
                 <h1 className='text-4xl md:text-5xl font-bold leading-tight'>
                     <span className='text-yellow-400'>Contact</span> Us
@@ -15,7 +15,7 @@ export default function Contact() {
                 <div className="mt-4">
                     <input
                         type="email"
-                        placeholder="Your Email"
+                        placeholder="Subscribe to our Newsletter"
                         className="px-4 py-3 w-full md:w-96 rounded-md text-base md:text-lg border border-gray-300"
                     />
                 </div>

@@ -13,7 +13,7 @@ const Home = () => {
       <Header />
       <Numbers />
       <AboutUs />
-      {/* <Roadmap /> */}
+      <Roadmap />
       <Team />
       <Donations />
       <Contact />
