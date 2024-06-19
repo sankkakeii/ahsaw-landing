@@ -30,7 +30,7 @@ const teamMembers = [
 
 export default function Team() {
     return (
-        <div className="flex flex-col items-center justify-center px-5 md:px-10 py-10 md:py-16 bg-white">
+        <div className="flex flex-col items-center justify-center px-5 md:px-10 py-10 md:py-16">
             <h1 className='text-4xl md:text-5xl font-bold leading-tight text-center'>
                 Meet Our <span className='text-yellow-400'>Team</span>
             </h1>

@@ -5,7 +5,7 @@ import NavMenu from './NavMenu';
 
 const Navbar = () => {
     return (
-        <nav className='py-4 px-10 border-b-1 w-full bg-white z-50'>
+        <nav className='py-4 px-10 border-b-1 w-full z-50'>
             <div className='flex justify-between items-center'>
                 <Link
                     href='/'>
