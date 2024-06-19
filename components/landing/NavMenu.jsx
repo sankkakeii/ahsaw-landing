@@ -14,6 +14,7 @@ const NavMenu = () => {
         { href: '#donate', label: 'Donate' },
         { href: '/adopt', label: 'Adopt' },
         { href: '#about', label: 'About Us' },
+        { href: '/gallery', label: 'Gallery' },
         // { href: 'https://aitools.fyi/', label: 'aitools.fyi' },
         { href: 'https://strayaidfoundation.beehiiv.com', label: 'Newsletter' },
     ];
