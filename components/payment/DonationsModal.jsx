@@ -7,11 +7,11 @@ export default function DonationsModal({ modalState, closeModal }) {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
             <div className="bg-white rounded-lg p-8 w-11/12 md:w-1/2">
                 <div className="flex justify-between items-center">
-                    <h2 className="text-2xl font-bold">Donate</h2>
-                    <button onClick={closeModal} className="text-gray-400 hover:text-gray-600">&times;</button>
+                    <h2 className="text-2xl font-bold  text-slate-800">Donate</h2>
+                    <p onClick={closeModal} className="text-gray-400 text-4xl rounded-full px-2 hover:text-red-400 hover:cursor-pointer">&times;</p>
                 </div>
                 <div className="mt-4">
-                    <h1>Your contributions mean so much to us</h1>
+                    <h1 className="text-slate-600">Your contributions mean so much to us!!!</h1>
                 </div>
                 <div className="mt-4 grid grid-cols-2 gap-4">
                     <Link href={'https://www.paypal.com/paypalme/ahsaw2022'} alt='paypal' className="flex items-center justify-center gap-2 bg-blue-500 text-white px-4 py-3 rounded-md hover:bg-blue-400">

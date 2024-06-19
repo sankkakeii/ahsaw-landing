@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import DonationsModal from '../payment/DonationsModal';
+import Link from 'next/link';
 
 export default function Header() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,9 +30,9 @@ export default function Header() {
                     <button className="bg-yellow-400 px-4 py-3 rounded-md text-base md:text-lg hover:bg-yellow-300" onClick={handleDonateClick}>
                         Donate
                     </button>
-                    <button className="bg-orange-400 px-4 py-3 rounded-md text-base md:text-lg hover:bg-orange-300">
+                    <Link href={'/adopt'} className="bg-orange-400 px-4 py-3 rounded-md text-base md:text-lg hover:bg-orange-300">
                         Adopt
-                    </button>
+                    </Link>
                 </div>
             </div>
 
