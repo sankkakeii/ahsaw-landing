@@ -43,7 +43,7 @@ export default function Numbers() {
     };
 
     return (
-        <div ref={countRef} className="rounded-2xl flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 px-5 md:px-10 py-10 md:py-16 bg-gray-900 my-5">
+        <div ref={countRef} className="rounded-2xl flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 px-5 md:px-10 py-10 md:py-16 bg-gray-900 my-5 mx-10">
             <div className="text-center">
                 <h1 className='text-4xl md:text-5xl font-bold leading-tight text-white'>
                     In 3 years Ahsaw has rescued over <span className='text-yellow-400'>{dogCount}</span>{' '}
