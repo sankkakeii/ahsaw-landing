@@ -10,7 +10,7 @@ export default function Contact() {
                     <span className='text-yellow-400'>Contact</span> Us
                 </h1>
                 <p className="text-sm md:text-base mt-4">
-                    We'd love to hear from you! Whether you have questions about our work, want to get involved, or need support, reach out to us.
+                    We&apos;d love to hear from you! Whether you have questions about our work, want to get involved, or need support, reach out to us.
                 </p>
                 <div className="mt-4">
                     <input
